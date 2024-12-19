@@ -21,7 +21,5 @@ import { envs } from 'src/config/envs';
   ],
 })
 export class ProductsModule {
-  constructor() {
-    console.log({ envs });
-  }
+  constructor() {}
 }
